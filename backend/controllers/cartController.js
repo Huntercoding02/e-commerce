@@ -11,8 +11,8 @@ const updateToCart = async (req,res)=>{
 }
 
 // get user cart data
-const setUserCart = async (req,res)=>{
+const getUserCart = async (req,res)=>{
     
 }
 
-export { addToCart,updateToCart,setUserCart}
+export { addToCart,updateToCart,getUserCart}
