@@ -99,7 +99,7 @@ const Product = () => {
           <p className="border px-5 py-3 text-sm">Reviews (122)</p>
         </div>
         <div className="flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quibusdam minima fugit qui? Nesciunt, quis, et quod quibusdam corrupti nihil aspernatur ut veniam odio obcaecati placeat officia quisquam enim quos?</p>
+          <p>A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tenetur vel quasi praesentium magni, ipsum aliquam temporibus itaque nemo asperiores consequatur quia iusto quos eum esse, accusantium excepturi sunt? Ut.</p>
         </div>
       </div>
