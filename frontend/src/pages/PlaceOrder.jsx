@@ -63,10 +63,20 @@ const PlaceOrder = () => {
             setCartItem({})
             navigate('/orders')
           }else{
-            console.log(response.data.message,"hi");
+            console.log(response.data.message);
             
             toast.error(response.data.message)
           }
+            break;
+
+            case 'stripe':
+              const responseStripe = await axios.post(backendUrl + '/api/order/stripe',orderData,{headers:{token}})
+              if (responseStripe.data.success) {
+                const {session_url} = responseStripe.data
+                window.location.replace(session_url)
+              }else{
+                toast.error(responseStripe.data.message)
+              }
             break;
         default:
 
